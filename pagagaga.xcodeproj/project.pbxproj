@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2100C3217F3F27F009FB88F /* page1~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A2100C3117F3F27F009FB88F /* page1~ipad.png */; };
+		A2100C3417F3F424009FB88F /* page1@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A2100C3317F3F424009FB88F /* page1@2x~ipad.png */; };
+		A2100C3717F3FB1D009FB88F /* page3@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A2100C3517F3FB1D009FB88F /* page3@2x~ipad.png */; };
+		A2100C3817F3FB1D009FB88F /* page2@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A2100C3617F3FB1D009FB88F /* page2@2x~ipad.png */; };
+		A2100C3A17F41220009FB88F /* page1text@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A2100C3917F41220009FB88F /* page1text@2x~ipad.png */; };
 		A2BB217417F07874007B0947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB217317F07874007B0947 /* Foundation.framework */; };
 		A2BB217617F07874007B0947 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB217517F07874007B0947 /* CoreGraphics.framework */; };
 		A2BB217817F07874007B0947 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB217717F07874007B0947 /* UIKit.framework */; };
@@ -24,6 +29,12 @@
 		A2BB219E17F07874007B0947 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2BB217717F07874007B0947 /* UIKit.framework */; };
 		A2BB21A617F07874007B0947 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2BB21A417F07874007B0947 /* InfoPlist.strings */; };
 		A2BB21A817F07874007B0947 /* pagagagaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BB21A717F07874007B0947 /* pagagagaTests.m */; };
+		A2BCE64617F2AE43006EFD62 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64417F2AE42006EFD62 /* page1.png */; };
+		A2BCE64717F2AE43006EFD62 /* page1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64517F2AE42006EFD62 /* page1@2x.png */; };
+		A2BCE64C17F2D0DA006EFD62 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64817F2D0DA006EFD62 /* page3.png */; };
+		A2BCE64D17F2D0DA006EFD62 /* page3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64917F2D0DA006EFD62 /* page3@2x.png */; };
+		A2BCE64E17F2D0DA006EFD62 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64A17F2D0DA006EFD62 /* page2.png */; };
+		A2BCE64F17F2D0DA006EFD62 /* page2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BCE64B17F2D0DA006EFD62 /* page2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2100C3117F3F27F009FB88F /* page1~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page1~ipad.png"; sourceTree = "<group>"; };
+		A2100C3317F3F424009FB88F /* page1@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page1@2x~ipad.png"; sourceTree = "<group>"; };
+		A2100C3517F3FB1D009FB88F /* page3@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page3@2x~ipad.png"; sourceTree = "<group>"; };
+		A2100C3617F3FB1D009FB88F /* page2@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page2@2x~ipad.png"; sourceTree = "<group>"; };
+		A2100C3917F41220009FB88F /* page1text@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page1text@2x~ipad.png"; sourceTree = "<group>"; };
 		A2BB217017F07874007B0947 /* pagagaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pagagaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BB217317F07874007B0947 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2BB217517F07874007B0947 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +77,12 @@
 		A2BB21A317F07874007B0947 /* pagagagaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pagagagaTests-Info.plist"; sourceTree = "<group>"; };
 		A2BB21A517F07874007B0947 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2BB21A717F07874007B0947 /* pagagagaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pagagagaTests.m; sourceTree = "<group>"; };
+		A2BCE64417F2AE42006EFD62 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		A2BCE64517F2AE42006EFD62 /* page1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page1@2x.png"; sourceTree = "<group>"; };
+		A2BCE64817F2D0DA006EFD62 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		A2BCE64917F2D0DA006EFD62 /* page3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page3@2x.png"; sourceTree = "<group>"; };
+		A2BCE64A17F2D0DA006EFD62 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		A2BCE64B17F2D0DA006EFD62 /* page2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "page2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +161,17 @@
 		A2BB217A17F07874007B0947 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2100C3917F41220009FB88F /* page1text@2x~ipad.png */,
+				A2100C3517F3FB1D009FB88F /* page3@2x~ipad.png */,
+				A2100C3617F3FB1D009FB88F /* page2@2x~ipad.png */,
+				A2100C3317F3F424009FB88F /* page1@2x~ipad.png */,
+				A2100C3117F3F27F009FB88F /* page1~ipad.png */,
+				A2BCE64817F2D0DA006EFD62 /* page3.png */,
+				A2BCE64917F2D0DA006EFD62 /* page3@2x.png */,
+				A2BCE64A17F2D0DA006EFD62 /* page2.png */,
+				A2BCE64B17F2D0DA006EFD62 /* page2@2x.png */,
+				A2BCE64417F2AE42006EFD62 /* page1.png */,
+				A2BCE64517F2AE42006EFD62 /* page1@2x.png */,
 				A2BB217B17F07874007B0947 /* pagagaga-Info.plist */,
 				A2BB217C17F07874007B0947 /* InfoPlist.strings */,
 				A2BB217F17F07874007B0947 /* main.m */,
@@ -241,10 +274,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2100C3217F3F27F009FB88F /* page1~ipad.png in Resources */,
+				A2BCE64F17F2D0DA006EFD62 /* page2@2x.png in Resources */,
 				A2BB219317F07874007B0947 /* Main_iPad.storyboard in Resources */,
+				A2100C3A17F41220009FB88F /* page1text@2x~ipad.png in Resources */,
+				A2100C3817F3FB1D009FB88F /* page2@2x~ipad.png in Resources */,
 				A2BB219517F07874007B0947 /* Images.xcassets in Resources */,
+				A2BCE64C17F2D0DA006EFD62 /* page3.png in Resources */,
+				A2BCE64617F2AE43006EFD62 /* page1.png in Resources */,
+				A2BCE64717F2AE43006EFD62 /* page1@2x.png in Resources */,
 				A2BB219017F07874007B0947 /* Main_iPhone.storyboard in Resources */,
+				A2100C3417F3F424009FB88F /* page1@2x~ipad.png in Resources */,
 				A2BB217E17F07874007B0947 /* InfoPlist.strings in Resources */,
+				A2100C3717F3FB1D009FB88F /* page3@2x~ipad.png in Resources */,
+				A2BCE64D17F2D0DA006EFD62 /* page3@2x.png in Resources */,
+				A2BCE64E17F2D0DA006EFD62 /* page2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,12 +446,15 @@
 		A2BB21AC17F07874007B0947 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pagagaga/pagagaga-Prefix.pch";
 				INFOPLIST_FILE = "pagagaga/pagagaga-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -415,11 +462,13 @@
 		A2BB21AD17F07874007B0947 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pagagaga/pagagaga-Prefix.pch";
 				INFOPLIST_FILE = "pagagaga/pagagaga-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -486,6 +535,7 @@
 				A2BB21AD17F07874007B0947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2BB21AE17F07874007B0947 /* Build configuration list for PBXNativeTarget "pagagagaTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +544,7 @@
 				A2BB21B017F07874007B0947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

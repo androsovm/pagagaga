@@ -30,14 +30,20 @@
     self = [super init];
     if (self) {
         // Create the data model.
-        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-        _pageData = [[dateFormatter monthSymbols] copy];
+        //for (int i=0; i<5; i++) {
+        //    _pageData = [NSArray arrayWithObjects:@"Page 1",@"Page 2",@"Page 3",nil];
+       //}
+        _pageData = [NSArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",nil];
+        //NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        //_pageData = [[dateFormatter monthSymbols] copy];
+        
     }
     return self;
 }
 
 - (DataViewController *)viewControllerAtIndex:(NSUInteger)index storyboard:(UIStoryboard *)storyboard
-{   
+{
+
     // Return the data view controller for the given index.
     if (([self.pageData count] == 0) || (index >= [self.pageData count])) {
         return nil;
@@ -45,6 +51,7 @@
     
     // Create a new view controller and pass suitable data.
     DataViewController *dataViewController = [storyboard instantiateViewControllerWithIdentifier:@"DataViewController"];
+    dataViewController.index=index;
     dataViewController.dataObject = self.pageData[index];
     return dataViewController;
 }

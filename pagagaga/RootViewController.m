@@ -40,7 +40,7 @@
     // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
     CGRect pageViewRect = self.view.bounds;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        pageViewRect = CGRectInset(pageViewRect, 40.0, 40.0);
+        pageViewRect = CGRectInset(pageViewRect, 0.0, 0.0);
     }
     self.pageViewController.view.frame = pageViewRect;
 
@@ -75,6 +75,11 @@
 }
  */
 
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
+}
+
 - (UIPageViewControllerSpineLocation)pageViewController:(UIPageViewController *)pageViewController spineLocationForInterfaceOrientation:(UIInterfaceOrientation)orientation
 {
     if (UIInterfaceOrientationIsPortrait(orientation) || ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)) {
@@ -93,6 +98,7 @@
     NSArray *viewControllers = nil;
 
     NSUInteger indexOfCurrentViewController = [self.modelController indexOfViewController:currentViewController];
+    
     if (indexOfCurrentViewController == 0 || indexOfCurrentViewController % 2 == 0) {
         UIViewController *nextViewController = [self.modelController pageViewController:self.pageViewController viewControllerAfterViewController:currentViewController];
         viewControllers = @[currentViewController, nextViewController];
